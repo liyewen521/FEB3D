@@ -1,0 +1,61 @@
+﻿生成启动时间为 2020/7/9 18:23:59。
+     1>项目“D:\liyewen_supplement_0702\image_compress_fpga_1021\QUI.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /ID:\liyewen_supplement_0702\image_compress_fpga_1021\..\common\inc /IC:\Qt\Qt5.2.0\5.2.0\msvc2012_64\include /IC:\Qt\Qt5.2.0\5.2.0\msvc2012_64\include\QtWidgets /IC:\Qt\Qt5.2.0\5.2.0\msvc2012_64\include\QtGui /IC:\Qt\Qt5.2.0\5.2.0\msvc2012_64\include\QtANGLE /IC:\Qt\Qt5.2.0\5.2.0\msvc2012_64\include\QtCore /Itemp\moc /Itemp\ui /I"C:\Qt\Qt5.2.0\5.2.0\msvc2012_64\mkspecs\win32-msvc2012" /I.\GeneratedFiles /nologo /W3 /WX- /O2 /D _WINDOWS /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_NO_DEBUG /D QT_OPENGL_ES_2 /D QT_OPENGL_ES_2_ANGLE /D QT_WIDGETS_LIB /D UNICODE /D UNICODE /D WIN32 /D WIN32 /D WIN64 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt -Zm200 -w34100 -w34189 ..\common\src\AOCLUtils\opencl.cpp ..\common\src\AOCLUtils\options.cpp frmmain.cpp frmmessagebox.cpp gzip_tools.cpp iconhelper.cpp main.cpp temp\moc\moc_frmmain.cpp temp\moc\moc_frmmessagebox.cpp
+         opencl.cpp
+         options.cpp
+         frmmain.cpp
+     1>d:\liyewen_supplement_0702\image_compress_fpga_1021\myhelper.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>frmmain.cpp(619): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : 参见“fopen”的声明
+     1>frmmain.cpp(723): warning C4018: “<”: 有符号/无符号不匹配
+     1>frmmain.cpp(727): warning C4018: “<”: 有符号/无符号不匹配
+     1>frmmain.cpp(861): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>frmmain.cpp(798): warning C4101: “symbol”: 未引用的局部变量
+     1>frmmain.cpp(797): warning C4101: “stream”: 未引用的局部变量
+     1>frmmain.cpp(796): warning C4101: “tmp”: 未引用的局部变量
+     1>frmmain.cpp(798): warning C4101: “compsize_huffman_host”: 未引用的局部变量
+     1>frmmain.cpp(798): warning C4101: “swaps”: 未引用的局部变量
+     1>frmmain.cpp(825): warning C4189: “tree”: 局部变量已初始化但不引用
+     1>frmmain.cpp(955): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : 参见“fopen”的声明
+     1>frmmain.cpp(1071): warning C4100: “output_lz”: 未引用的形参
+     1>frmmain.cpp(1144): warning C4189: “start_time”: 局部变量已初始化但不引用
+     1>frmmain.cpp(1149): warning C4189: “global_work_size”: 局部变量已初始化但不引用
+     1>frmmain.cpp(1150): warning C4189: “local_work_size”: 局部变量已初始化但不引用
+     1>frmmain.cpp(1219): warning C4018: “<”: 有符号/无符号不匹配
+     1>frmmain.cpp(1238): warning C4018: “<”: 有符号/无符号不匹配
+     1>frmmain.cpp(1247): warning C4018: “<”: 有符号/无符号不匹配
+     1>frmmain.cpp(1271): warning C4018: “<”: 有符号/无符号不匹配
+     1>frmmain.cpp(1284): warning C4018: “<”: 有符号/无符号不匹配
+     1>frmmain.cpp(1302): warning C4018: “<”: 有符号/无符号不匹配
+         frmmessagebox.cpp
+     1>frmmessagebox.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\liyewen_supplement_0702\image_compress_fpga_1021\myhelper.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         gzip_tools.cpp
+         iconhelper.cpp
+         main.cpp
+     1>d:\liyewen_supplement_0702\image_compress_fpga_1021\myhelper.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         moc_frmmain.cpp
+         moc_frmmessagebox.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /ID:\liyewen_supplement_0702\image_compress_fpga_1021\..\common\inc /IC:\Qt\Qt5.2.0\5.2.0\msvc2012_64\include /IC:\Qt\Qt5.2.0\5.2.0\msvc2012_64\include\QtWidgets /IC:\Qt\Qt5.2.0\5.2.0\msvc2012_64\include\QtGui /IC:\Qt\Qt5.2.0\5.2.0\msvc2012_64\include\QtANGLE /IC:\Qt\Qt5.2.0\5.2.0\msvc2012_64\include\QtCore /Itemp\moc /Itemp\ui /I"C:\Qt\Qt5.2.0\5.2.0\msvc2012_64\mkspecs\win32-msvc2012" /I.\GeneratedFiles /nologo /W3 /WX- /O2 /D _WINDOWS /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_NO_DEBUG /D QT_OPENGL_ES_2 /D QT_OPENGL_ES_2_ANGLE /D QT_WIDGETS_LIB /D UNICODE /D UNICODE /D WIN32 /D WIN32 /D WIN64 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt -Zm200 -w34100 -w34189 GeneratedFiles\qrc_rc.cpp
+         qrc_rc.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\liyewen_supplement_0702\image_compress_fpga_1021\bin\\QUI.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\intelFPGA_pro\17.1\hld\board\de5a_net_ddr4\windows64\lib /LIBPATH:C:\Qt\Qt5.2.0\5.2.0\msvc2012_64\\lib alteracl.lib acl_emulator_kernel_rt.lib pkg_editor.lib libelf.lib acl_hostxml.lib terasic_a10_mmd.lib qtmain.lib C:\Qt\Qt5.2.0\5.2.0\msvc2012_64\\lib\Qt5Widgets.lib C:\Qt\Qt5.2.0\5.2.0\msvc2012_64\\lib\Qt5Gui.lib C:\Qt\Qt5.2.0\5.2.0\msvc2012_64\\lib\Qt5Core.lib libEGL.lib libGLESv2.lib gdi32.lib user32.lib "C:\tiff-4.0.9\libtiff\tiff.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:\liyewen_supplement_0702\image_compress_fpga_1021\bin\QUI.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 "/libpath:C:\intelFPGA_pro\17.1\hld/host/windows64/lib" "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" /SUBSYSTEM:WINDOWS x64\Release\main.res
+         x64\Release\opencl.obj
+         x64\Release\options.obj
+         x64\Release\frmmain.obj
+         x64\Release\frmmessagebox.obj
+         x64\Release\qrc_rc.obj
+         x64\Release\gzip_tools.obj
+         x64\Release\iconhelper.obj
+         x64\Release\main.obj
+         x64\Release\moc_frmmain.obj
+         x64\Release\moc_frmmessagebox.obj
+         QUI.vcxproj -> D:\liyewen_supplement_0702\image_compress_fpga_1021\bin\QUI.exe
+     1>已完成生成项目“D:\liyewen_supplement_0702\image_compress_fpga_1021\QUI.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.95
